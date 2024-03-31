@@ -26,7 +26,7 @@ function Select({ label, values, disabled = false, value, onChange }: Props) {
       <option value="*">{label}</option>
       {values.map((e) => (
         <option key={e.value} value={e.value}>
-          {e.name}
+          {e.value}
         </option>
       ))}
     </Form.Select>
