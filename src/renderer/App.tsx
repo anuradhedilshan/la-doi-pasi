@@ -57,6 +57,7 @@ export default function App() {
           break;
         case 'complete':
           setDone(true);
+          setProgress(0);
           break;
         case 'error':
         case 'warn':
