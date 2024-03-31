@@ -1,0 +1,17 @@
+
+
+/* custom css */
+.error {
+  color: red;
+}
+.warn {
+  color: yellow;
+}
+
+.details {
+  color: #3795f6;
+}
+
+.log b {
+  color: #0fcc45;
+}
